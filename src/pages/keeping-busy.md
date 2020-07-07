@@ -1,6 +1,7 @@
 ---
 title: "Keeping Busy"
 date: "2020-08-01"
+tags: WFH, games
 ---
 
 When Theo’s not sleeping or eating, he wants to play. He needs a job to do, all the time -- which can make it hard for me to do my job. 
@@ -39,7 +40,6 @@ How did this work for you?
 What variations do you do? 
 How else do you keep your dog occupied while you’re working from home? 
 
-Tags: WFH, games
 
 
 Social media
