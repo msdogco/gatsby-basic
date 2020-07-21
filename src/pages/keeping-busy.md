@@ -1,7 +1,8 @@
 ---
 title: "Keeping Busy"
+slug: "keeping-busy"
 date: "2020-08-01"
-tags: WFH, games
+tags: ["WFH", "games"]
 ---
 
 When Theo’s not sleeping or eating, he wants to play. He needs a job to do, all the time -- which can make it hard for me to do my job. 
