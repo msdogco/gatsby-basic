@@ -1,6 +1,5 @@
 ---
 title: "Keeping Busy"
-slug: "keeping-busy"
 date: "2020-08-01"
 tags: ["WFH", "games"]
 ---

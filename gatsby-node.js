@@ -56,6 +56,8 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   // Create post detail pages
   posts.forEach(({ node }) => {
     createPage({
+      context: { slug: node.fields.slug
+      },
       path: node.fields.slug,
       component: blogPostTemplate,
     })

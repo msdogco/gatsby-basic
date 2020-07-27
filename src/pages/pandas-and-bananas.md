@@ -1,6 +1,5 @@
 ---
 title: "Pandas and Bananas"
-slug: "pandas-bananas"
 date: "2017-08-21"
 tags: ["title", "WFH"]
 ---
