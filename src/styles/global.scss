@@ -14,3 +14,14 @@ $color5 : #003d5b;
     text-shadow: none;
   }
 }
+
+.section {
+    padding: 20px;
+}
+.section-dark {
+    background-color: $color4;
+    color: white;
+    h3 {
+        color: white;
+    }
+}
