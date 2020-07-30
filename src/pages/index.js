@@ -37,7 +37,7 @@ export default function Home({ data }) {
               <p>Main Squeeze is a flexible product: it works just as well for a puppy learning her way in the world as it does for a troubled rescue crippled by anxiety when meeting other dogs. Regardless of your dogs story, Main Squeeze shares an optimistic vision about what your dog's future might bring.</p>
               <p>Caring for a traumatized or reactive dog can be immensely difficult: your dog doesn't have anyone but you, and your dog might make your life hard with constant barking, growling and lunging. You love your dog, but your life would be easier without him. To get rid of him would be a death sentence, so you're stuck with an almost-intolerable roommate.</p>
               <p>This is an early ad concept we decided not to produce for Main Squeeze:</p>
-              <img src='static/calmAndEasy.svg' alt="a calm and easy dog life"/>
+              <img src='/calmAndEasy.svg' alt="a calm and easy dog life"/>
               <p>Even if it's not very polished, and it doesn't warrant promotion, this is a vision of why we persevere with our sometimes aggravating dogs. The founding motivation of Main Squeeze is to help reactive dogs recover through counter-conditioning, and to help puppy-training go as smoothly as possible. We may not all reach a point of having a "calm and easy dog life," but we can work to get a little closer to achieving that dream.</p>
           </div>
       </div>
