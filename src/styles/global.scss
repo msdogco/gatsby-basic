@@ -16,7 +16,7 @@ $color5 : #003d5b;
 }
 
 .section {
-    padding: 20px;
+    padding: 10px;
 }
 .section-dark {
     background-color: $color4;
@@ -25,3 +25,9 @@ $color5 : #003d5b;
         color: white;
     }
 }
+.constrained-width {
+  margin: auto;
+  max-width: 650px;
+  padding: 0 1rem;
+}
+

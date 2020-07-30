@@ -7,7 +7,13 @@ const ListLink = props => (
   </li>
 )
 
-export default function Layout({ children }) {
+export default function Layout({ children, fullWidth }) {
+  let widthClass;
+  if(fullWidth){
+    widthClass = "";
+    } else {
+    widthClass = "constrained-width";
+    }
   return (
     <div>
       <Headroom>
@@ -21,7 +27,7 @@ export default function Layout({ children }) {
         </ul>
         </div>
       </Headroom>
-      <div style={{ margin: `auto`, maxWidth: 650, padding: `0 1rem` }}>
+      <div class={widthClass}>
       {children}
       </div>
     </div>
