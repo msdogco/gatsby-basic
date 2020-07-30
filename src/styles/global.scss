@@ -1,0 +1,16 @@
+$color1 : #edae49;
+$color2 : #d1495b;
+$color3 : #00798c;
+$color4 : #30638e;
+$color5 : #003d5b;
+
+.headroom {
+  background-color: $color3;
+  padding: 5px;
+  .title {
+    color: white;
+  }
+  a {
+    text-shadow: none;
+  }
+}
