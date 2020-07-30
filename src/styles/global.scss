@@ -30,4 +30,8 @@ $color5 : #003d5b;
   max-width: 650px;
   padding: 0 1rem;
 }
-
+.tube-in-use {
+    background-image: url("/tubeInUse.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}

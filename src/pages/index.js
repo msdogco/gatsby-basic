@@ -7,12 +7,7 @@ import Layout from "../components/layout"
 export default function Home({ data }) {
   return (
   <Layout fullWidth={true} >
-    <div class='section'
-      css={css`
-        background-image: url("/tubeInUse.svg");
-        background-repeat: no-repeat;
-        background-position: right;
-      `}
+    <div class='section tube-in-use'
         >
         <div class='constrained-width'>
           <h1>The Original Treat Tube</h1>
