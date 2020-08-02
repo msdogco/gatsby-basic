@@ -35,3 +35,33 @@ $color5 : #003d5b;
     background-repeat: no-repeat;
     background-position: right;
 }
+
+.postTag::before {
+    background: transparent;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    content: "";
+    left: 0px;
+    bottom: 8px;
+    right: -16px;
+    position: absolute;
+    top: 0;
+    transform: skewX(25deg);
+    z-index: 0;
+}
+
+.postTag {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-image: none;
+}
+
+.postTagList {
+    margin-top: 2rem;
+    position: relative;
+}
+.blogPostTitle {
+    margin-top: 1rem;
+}
