@@ -1,0 +1,80 @@
+$color1 : #edae49;
+$color2 : #d1495b;
+$color3 : #00798c;
+$color4 : #30638e;
+$color5 : #003d5b;
+
+.headroom {
+  background-color: $color3;
+  padding: 5px;
+  .title {
+    color: white;
+  }
+  a {
+    text-shadow: none;
+  }
+}
+
+.section {
+    padding: 10px;
+}
+.section-dark {
+    background-color: $color4;
+    color: white;
+    h3 {
+        color: white;
+    }
+}
+.constrained-width {
+  margin: auto;
+  max-width: 650px;
+  padding: 0 1rem;
+}
+.tube-in-use {
+    background-image: url("/tubeInUse.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.postTag::before {
+    background: transparent;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    content: "";
+    left: 0px;
+    bottom: 8px;
+    right: -16px;
+    position: absolute;
+    top: 0;
+    transform: skewX(25deg);
+    z-index: 0;
+}
+
+.postTag {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-image: none;
+}
+
+.postTagList {
+    margin-top: 2rem;
+    position: relative;
+}
+.blogPostTitle {
+    margin-top: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+#mc_embed_signup {
+    background:#fff;
+    clear:left;
+    font:14px Helvetica,Arial,sans-serif;
+    width:100%;
+}

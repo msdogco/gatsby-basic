@@ -27,13 +27,24 @@ You can also put a small treat in each box, to keep them motivated.
     
 
 **Recycling:** When your dog has destroyed the boxes, you can tuck them into the Chewy box and fill with balls or toys. Scatter treats and ask him to find it. 
+
+<div class="grid">
+
 ![A simple box setup](/keeping-busy/box1.jpg)
+
 ![nested box setup](/keeping-busy/box2.jpg)
+
+</div>
 
 No boxes? No problem! Toss a few treats and toys into a basket or bag and let the fun begin!
 
+<div class="grid">
+
 ![basket](/keeping-busy/basket.jpg)
+
 ![another basket](/keeping-busy/basket2.jpg)
+
+</div>
 
 Question (for the comments)
 How did this work for you? 
