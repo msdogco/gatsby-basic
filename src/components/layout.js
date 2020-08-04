@@ -1,5 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import MailSignupForm from "../components/mail-signup-form"
+
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
     <Link to={props.to}>{props.children}</Link>
@@ -19,6 +21,7 @@ export default function Layout({ children }) {
         </ul>
       </header>
       {children}
+      <MailSignupForm/>
     </div>
   )
 }
