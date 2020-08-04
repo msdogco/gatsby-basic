@@ -78,3 +78,15 @@ $color5 : #003d5b;
     font:14px Helvetica,Arial,sans-serif;
     width:100%;
 }
+
+//grid-based sticky footer code, like https://css-tricks.com/couple-takes-sticky-footer/
+.layoutWrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+}

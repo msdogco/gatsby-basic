@@ -17,22 +17,26 @@ export default function Layout({ children, fullWidth }) {
     widthClass = "constrained-width";
     }
   return (
-    <div>
-      <Headroom>
-        <div style={{maxWidth: 650, margin: "auto"}} >
-        <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
-          <h3 class="title" style={{ display: `inline` }}>Main Squeeze Dog Co.</h3>
-        </Link>
-        <ul style={{ listStyle: `none`, float: `right`, margin: 0 }}>
-          <ListLink to="/">Home</ListLink>
-          <ListLink to="/blog">Blog</ListLink>
-        </ul>
+    <div className="layoutWrapper">
+      <div className="content">
+        <Headroom>
+          <div style={{maxWidth: 650, margin: "auto"}} >
+          <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+            <h3 className="title" style={{ display: `inline` }}>Main Squeeze Dog Co.</h3>
+          </Link>
+          <ul style={{ listStyle: `none`, float: `right`, margin: 0 }}>
+            <ListLink to="/">Home</ListLink>
+            <ListLink to="/blog">Blog</ListLink>
+          </ul>
+          </div>
+        </Headroom>
+        <div className={widthClass}>
+        {children}
         </div>
-      </Headroom>
-      <div class={widthClass}>
-      {children}
-      <MailSignupForm/>
       </div>
+      <footer className="footer">
+        <MailSignupForm/>
+      </footer>
     </div>
   )
 }
