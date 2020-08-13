@@ -16,8 +16,9 @@ $color5 : #003d5b;
 }
 
 .section {
-    padding: 10px;
+    padding: 3rem 10px;
 }
+
 .section-dark {
     background-color: $color4;
     color: white;
@@ -68,15 +69,37 @@ $color5 : #003d5b;
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1rem;
 }
 
+// HOME PAGE
+.tube-in-use-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tube-in-use-image {
+    width: 200px;
+}
+
+.tube-in-use-bullets {
+    min-width: 200px;
+}
+
 #mc_embed_signup {
-    background:#fff;
     clear:left;
-    font:14px Helvetica,Arial,sans-serif;
     width:100%;
+    // the button:
+    #mc-embedded-subscribe {
+        background-color: $color1;
+     }
+    //the title
+    #mc_embed_signup label{
+        font: 20px;
+    }
 }
 
 //grid-based sticky footer code, like https://css-tricks.com/couple-takes-sticky-footer/
