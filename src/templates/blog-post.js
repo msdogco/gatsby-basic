@@ -1,6 +1,6 @@
 import React from "react"
 import { graphql } from "gatsby"
-import {Layout} from "../components/layout"
+import { Layout } from "../components/layout"
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
@@ -8,10 +8,13 @@ export default function BlogPost({ data }) {
     <Layout>
       <div>
         <div class="postTagList">
-           { post.frontmatter.tags.map(function(tag, i){
-                   return <a class="postTag" href={"/tags/" + tag.toLowerCase()} key={i}>{tag}</a>;
-               })
-           }
+          {post.frontmatter.tags.map(function (tag, i) {
+            return (
+              <a class="postTag" href={"/tags/" + tag.toLowerCase()} key={i}>
+                {tag}
+              </a>
+            )
+          })}
         </div>
         <h1 class="blogPostTitle">{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
