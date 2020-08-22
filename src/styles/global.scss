@@ -109,6 +109,11 @@ $color5 : #003d5b;
     min-width: 200px;
 }
 
+.calm-and-easy {
+    margin: auto;
+    max-width: 400px;
+}
+
 #mc_embed_signup {
     clear:left;
     width:100%;
@@ -132,20 +137,20 @@ $color5 : #003d5b;
 .footer {
   grid-row-start: 2;
   grid-row-end: 3;
+  padding: 10px;
 }
 
 // large screen!
 @media screen and (min-width: 768px) {
     .headroom {
 
-    // responsive menu is not needed on desktop
-    .hamburger-icon {
-        display: none;
-    }
-    .link-list {
-        display: inline-block;
-        float: right;
-    }
-
+        // responsive menu is not needed on desktop
+        .hamburger-icon {
+            display: none;
+        }
+        .link-list {
+            display: inline-block;
+            float: right;
+        }
     }
 }

@@ -14,9 +14,7 @@ Here are the variations we’ve tried:
 
 **Basic:** Hide a single treat in one of the boxes. Close them all, put them in a pile, and tell your dog to find the treat. 
 To make it easier, close the boxes with a small piece of tape 
- [ image ] 
-For dogs like Theo, who uses the brute-force method of problem-solving, I’ll close them like this to make it a little harder:
-        [image]
+For dogs like Theo, who uses the brute-force method of problem-solving, I’ll close them with the flaps holding one another shut to make it a little harder.
 You can also put a small treat in each box, to keep them motivated.
 
 **Intermediate:** If your dog solves that game too quickly, put one or more treats in the smaller boxes and close them. Then fit them into the Chewy box. Your dog will have to remove the boxes first, then find the treat(s). 
@@ -46,15 +44,12 @@ No boxes? No problem! Toss a few treats and toys into a basket or bag and let th
 
 </div>
 
-Question (for the comments)
 How did this work for you? 
 What variations do you do? 
 How else do you keep your dog occupied while you’re working from home? 
 
 
 
-Social media
-Time lapse video + “Use treats and your old boxes to keep your dog happy and occupied while you #WFH. How do you keep your dog busy? Link to instructions in profile!”
 
 
 
