@@ -1,4 +1,4 @@
-import React, {Component} from "react"
+import React from "react"
 import Headroom from "react-headroom"
 import { Link } from "gatsby"
 import MailSignupForm from "../components/mail-signup-form"
@@ -11,6 +11,12 @@ const ListLink = props => (
 );
 
 export class Layout extends React.Component {
+    state = {
+        toggle:false
+    }
+    Toggle = () => {
+        this.setState({toggle:!this.state.toggle})
+    }
     render(){
       let widthClass;
       if(this.props.fullWidth){
@@ -27,12 +33,14 @@ export class Layout extends React.Component {
               <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
                 <h3 className="title" style={{ display: `inline` }}>Main Squeeze Dog Co.</h3>
               </Link>
-              <ul style={{ listStyle: `none`, float: `right`, margin: 0 }}>
+               <button className="hamburger-icon" onClick={this.Toggle}>
+                   <FaAlignRight color='white'/>
+               </button>
+              <ul className={this.state.toggle ? "link-list show-nav" : "link-list"}>
                 <ListLink to="/">Home</ListLink>
                 <ListLink to="/blog">Blog</ListLink>
               </ul>
               </div>
-
 
             </Headroom>
             <div className={widthClass}>

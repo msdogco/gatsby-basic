@@ -12,7 +12,27 @@ $color5 : #003d5b;
   }
   a {
     text-shadow: none;
+    // overriding styles from typography.js theme (configured in utils)
+    color: white;
+    background-image: none;
   }
+  .hamburger-icon {
+    background-color: inherit;
+    border: none;
+    float: right;
+    cursor: pointer;
+    }
+}
+
+.link-list {
+    listStyle: none;
+    display: none;
+    margin: 0;
+}
+.show-nav {
+    display: block;
+    height: auto;
+    width: 100%;
 }
 
 .section {
@@ -117,6 +137,15 @@ $color5 : #003d5b;
 // large screen!
 @media screen and (min-width: 768px) {
     .headroom {
+
+    // responsive menu is not needed on desktop
+    .hamburger-icon {
+        display: none;
+    }
+    .link-list {
+        display: inline-block;
+        float: right;
+    }
 
     }
 }
