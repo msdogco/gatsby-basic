@@ -2,7 +2,7 @@ import React from "react"
 import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
-import Layout from "../components/layout"
+import {Layout} from "../components/layout"
 import MailSignupForm from "../components/mail-signup-form"
 
 export default function Home({ data }) {
