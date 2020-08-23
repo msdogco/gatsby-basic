@@ -1,0 +1,162 @@
+$color1 : #edae49;
+$color2 : #d1495b;
+$color3 : #00798c;
+$color4 : #30638e;
+$color5 : #003d5b;
+
+.headroom {
+  background-color: $color3;
+  padding: 5px;
+  .title {
+    color: white;
+  }
+  a {
+    text-shadow: none;
+    // overriding styles from typography.js theme (configured in utils)
+    color: white;
+    background-image: none;
+  }
+  .hamburger-icon {
+    background-color: inherit;
+    border: none;
+    float: right;
+    cursor: pointer;
+    }
+}
+
+.link-list {
+    listStyle: none;
+    display: none;
+    margin: 0;
+}
+.show-nav {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.section {
+    padding: 3rem 10px;
+}
+
+.section-dark {
+    background-color: $color4;
+    color: white;
+    h3 {
+        color: white;
+    }
+}
+.constrained-width {
+  margin: auto;
+  max-width: 650px;
+  padding: 0 1rem;
+}
+.tube-in-use {
+    background-image: url("/tubeInUse.svg");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.postTag::before {
+    background: transparent;
+    border-right: 2px solid;
+    border-top: 2px solid;
+    content: "";
+    left: 0px;
+    bottom: 8px;
+    right: -16px;
+    position: absolute;
+    top: 0;
+    transform: skewX(25deg);
+    z-index: 0;
+}
+
+.postTag {
+    position: relative;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
+    background-image: none;
+}
+
+.postTagList {
+    margin-top: 2rem;
+    position: relative;
+}
+.blogPostTitle {
+    margin-top: 1rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+}
+
+// HOME PAGE
+.tube-in-use-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.tube-in-use-image {
+    width: 200px;
+}
+
+.tube-in-use-bullets {
+    min-width: 200px;
+}
+
+.center-image {
+    display: flex;
+    flex-direction: row;
+}
+
+.calm-and-easy {
+    margin: auto;
+    max-width: 400px;
+    flex-grow: 1;
+}
+
+#mc_embed_signup {
+    clear:left;
+    width:100%;
+    // the button:
+    #mc-embedded-subscribe {
+        background-color: $color1;
+     }
+    //the title
+    #mc_embed_signup label{
+        font: 20px;
+    }
+}
+
+//grid-based sticky footer code, like https://css-tricks.com/couple-takes-sticky-footer/
+.layoutWrapper {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr auto;
+}
+
+.footer {
+  grid-row-start: 2;
+  grid-row-end: 3;
+  padding: 10px;
+}
+
+// large screen!
+@media screen and (min-width: 768px) {
+    .headroom {
+
+        // responsive menu is not needed on desktop
+        .hamburger-icon {
+            display: none;
+        }
+        .link-list {
+            display: inline-block;
+            float: right;
+        }
+    }
+}

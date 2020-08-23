@@ -1,8 +1,8 @@
 module.exports = {
-    siteMetadata: {
-      title: `Title from siteMetadata`,
-    },
-    plugins: [
+  siteMetadata: {
+    title: `Title from siteMetadata`,
+  },
+  plugins: [
     {
       resolve: `gatsby-plugin-typography`,
       options: {
@@ -10,6 +10,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-emotion`,
+    `gatsby-plugin-sass`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {

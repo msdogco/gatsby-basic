@@ -2,7 +2,7 @@ import React from "react"
 import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
 import { rhythm } from "../utils/typography"
-import Layout from "../components/layout"
+import { Layout } from "../components/layout"
 
 export default function Blog({ data }) {
   return (
@@ -15,7 +15,10 @@ export default function Blog({ data }) {
         >
           The Main Squeeze Blog
         </h1>
-        <h4>{data.allMarkdownRemark.totalCount} Posts</h4>
+        <h4>
+          {data.allMarkdownRemark.totalCount} Post
+          {data.allMarkdownRemark.totalCount > 1 ? "s" : ""}
+        </h4>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <Link
