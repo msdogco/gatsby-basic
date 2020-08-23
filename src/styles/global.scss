@@ -109,9 +109,15 @@ $color5 : #003d5b;
     min-width: 200px;
 }
 
+.center-image {
+    display: flex;
+    flex-direction: row;
+}
+
 .calm-and-easy {
     margin: auto;
     max-width: 400px;
+    flex-grow: 1;
 }
 
 #mc_embed_signup {

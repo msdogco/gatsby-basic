@@ -75,11 +75,15 @@ export default function Home({ data }) {
             This is an early ad concept we decided not to produce for Main
             Squeeze:
           </p>
-          <img
-            className="calm-and-easy"
-            src="/calmAndEasy.svg"
-            alt="a calm and easy dog life"
-          />
+          <div className="center-image">
+            <div/>
+              <img
+                className="calm-and-easy"
+                src="/calmAndEasy.svg"
+                alt="a calm and easy dog life"
+              />
+            <div/>
+          </div>
           <p>
             Even if it's not very polished, and it doesn't warrant promotion,
             this is a vision of why we persevere with our sometimes aggravating
