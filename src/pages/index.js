@@ -76,13 +76,13 @@ export default function Home({ data }) {
             Squeeze:
           </p>
           <div className="center-image">
-            <div/>
-              <img
-                className="calm-and-easy"
-                src="/calmAndEasy.svg"
-                alt="a calm and easy dog life"
-              />
-            <div/>
+            <div />
+            <img
+              className="calm-and-easy"
+              src="/calmAndEasy.svg"
+              alt="a calm and easy dog life"
+            />
+            <div />
           </div>
           <p>
             Even if it's not very polished, and it doesn't warrant promotion,
