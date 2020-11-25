@@ -1,28 +1,28 @@
-import React from "react"
-import Headroom from "react-headroom"
-import { Link } from "gatsby"
-import MailSignupForm from "../components/mail-signup-form"
-import { FaAlignRight } from "react-icons/fa"
+import React from "react";
+import Headroom from "react-headroom";
+import { Link } from "gatsby";
+import MailSignupForm from "../components/mail-signup-form";
+import { FaAlignRight } from "react-icons/fa";
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem`, marginBottom: 0 }}>
     <Link to={props.to}>{props.children}</Link>
   </li>
-)
+);
 
 export class Layout extends React.Component {
   state = {
     toggle: false,
   }
   Toggle = () => {
-    this.setState({ toggle: !this.state.toggle })
+      this.setState({ toggle: !this.state.toggle });
   }
   render() {
-    let widthClass
+      let widthClass;
     if (this.props.fullWidth) {
-      widthClass = ""
+        widthClass = "";
     } else {
-      widthClass = "constrained-width"
+        widthClass = "constrained-width";
     }
 
     return (
@@ -57,6 +57,6 @@ export class Layout extends React.Component {
           <MailSignupForm />
         </footer>
       </div>
-    )
+    );
   }
 }
