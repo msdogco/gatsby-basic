@@ -4,18 +4,27 @@ $color3 : #00798c;
 $color4 : #30638e;
 $color5 : #003d5b;
 
+@import "~fontsource-patrick-hand/index.css";
+
+.ad-page {
+    font-family: 'Patrick Hand', cursive;
+}
+
 .headroom {
   background-color: $color3;
-  padding: 5px;
+  display: flex;
+  padding: .5rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+
   .title {
     color: white;
   }
+
   a {
-    text-shadow: none;
-    // overriding styles from typography.js theme (configured in utils)
     color: white;
-    background-image: none;
   }
+
   .hamburger-icon {
     background-color: inherit;
     border: none;
@@ -46,11 +55,7 @@ $color5 : #003d5b;
         color: white;
     }
 }
-.constrained-width {
-  margin: auto;
-  max-width: 650px;
-  padding: 0 1rem;
-}
+
 .tube-in-use {
     background-image: url("/tubeInUse.svg");
     background-repeat: no-repeat;
@@ -146,6 +151,11 @@ $color5 : #003d5b;
   padding: 10px;
 }
 
+.ms-logo {
+    display: inline-block;
+    max-height: 30px;
+}
+
 // large screen!
 @media screen and (min-width: 768px) {
     .headroom {
@@ -155,7 +165,7 @@ $color5 : #003d5b;
             display: none;
         }
         .link-list {
-            display: inline-block;
+            display: flex;
             float: right;
         }
     }

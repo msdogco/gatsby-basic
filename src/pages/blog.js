@@ -1,7 +1,6 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
 import { Layout } from "../components/layout"
 
 export default function Blog({ data }) {
@@ -28,11 +27,7 @@ export default function Blog({ data }) {
                 color: inherit;
               `}
             >
-              <h3
-                css={css`
-                  margin-bottom: ${rhythm(1 / 4)};
-                `}
-              >
+              <h3>
                 {node.frontmatter.title}{" "}
                 <span
                   css={css`

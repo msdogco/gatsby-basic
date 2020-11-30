@@ -48,7 +48,6 @@ export default function MailSignupForm() {
               <input
                 type="submit"
                 value="Woof!"
-                defaultValue="Subscribe"
                 name="subscribe"
                 id="mc-embedded-subscribe"
                 className="button"
