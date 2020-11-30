@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import MailSignupForm from "../components/mail-signup-form";
 import { FaAlignRight } from "react-icons/fa";
 import { Helmet } from "react-helmet";
-import ScriptTag from 'react-script-tag';
+import Script from 'react-script-tag';
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem`, marginBottom: 0 }}>
@@ -58,8 +58,8 @@ export class Layout extends React.Component {
         </footer>
   </div>
             {/*bootstrap, this could be moved elsewhere, maybe to ssr file*/}
-<ScriptTag src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossOrigin="anonymous"></ScriptTag>
-<ScriptTag src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossOrigin="anonymous"></ScriptTag>
+<Script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossOrigin="anonymous"></Script>
+<Script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossOrigin="anonymous"></Script>
             {/*end bootstrap imports*/}
             </>
     );
