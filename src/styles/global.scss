@@ -6,6 +6,14 @@ $color5 : #003d5b;
 
 @import "~fontsource-patrick-hand/index.css";
 
+.page-title {
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+        font-size: 3rem;
+}
+.section-title {
+    margin-top: 3rem;
+}
 .ad-page {
     font-family: 'Patrick Hand', cursive;
 }
@@ -17,7 +25,7 @@ $color5 : #003d5b;
   align-items: center;
   justify-content: space-between;
 
-  .title {
+  .header-title {
     color: white;
   }
 
