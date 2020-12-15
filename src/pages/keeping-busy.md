@@ -18,28 +18,36 @@ For dogs like Theo, who uses the brute-force method of problem-solving, I’ll c
 You can also put a small treat in each box, to keep them motivated.
 
 **Intermediate:** If your dog solves that game too quickly, put one or more treats in the smaller boxes and close them. Then fit them into the Chewy box. Your dog will have to remove the boxes first, then find the treat(s).
-![Intermediate boxes](/keeping-busy/theo1.png)
+<!-- <div class="row"> -->
+<!-- <div class="col"> -->
 
+<img class="blog-image" alt="Intermediate boxes" src=/keeping-busy/theo1.png />
+
+<!-- </div> -->
+<!-- </div> -->
 **Advanced:** Set up your boxes as described above, then add toys and/or a bunch of balls (I ordered 150 of these from Amazon). Drop a few treats in the Chewy box, in addition to the smaller box(es). Your dog will have to remove the boxes and sniff his way through the balls to find the treats.
 
 **Recycling:** When your dog has destroyed the boxes, you can tuck them into the Chewy box and fill with balls or toys. Scatter treats and ask him to find it.
 
-<div class="grid">
-
-![A simple box setup](/keeping-busy/box1.jpg)
-
-![nested box setup](/keeping-busy/box2.jpg)
-
+<div class="row">
+<div class="col">
+<img src=/keeping-busy/box1.jpg alt="A simple box setup"/>
+</div>
+<div class="col">
+<img alt="nested box setup" src=/keeping-busy/box2.jpg />
+</div>
 </div>
 
 No boxes? No problem! Toss a few treats and toys into a basket or bag and let the fun begin!
 
-<div class="grid">
+<div class="row">
+<div class="col">
+<img alt="basket" src=/keeping-busy/basket.jpg />
+</div>
 
-![basket](/keeping-busy/basket.jpg)
-
-![another basket](/keeping-busy/basket2.jpg)
-
+<div class="col">
+<img alt="another basket" src=/keeping-busy/basket2.jpg />
+</div>
 </div>
 
 How did this work for you?

@@ -105,6 +105,12 @@ $color5 : #003d5b;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1rem;
 }
+.grid-item {
+    flex: 0 1 auto;
+}
+.blog-image {
+    object-fit: contain;
+}
 
 // HOME PAGE
 .tube-in-use-wrapper {

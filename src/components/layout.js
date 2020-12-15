@@ -34,7 +34,7 @@ export class Layout extends React.Component {
         <div className="content">
           <Headroom>
             <Link to="/" className="w-100 d-flex">
-              <img className="ms-logo mr-2 d-inline" src="mainsqueeze_logo_temp_no_text.svg" alt="Main Squeeze logo"/>
+              <img className="ms-logo mr-2 d-inline" src="/mainsqueeze_logo_temp_no_text.svg" alt="Main Squeeze logo"/>
               <h3 className="header-title d-inline mb-0">Main Squeeze Dog Co.</h3>
             </Link>
             <right-stuff >
