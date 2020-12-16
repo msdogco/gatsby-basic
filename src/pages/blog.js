@@ -1,21 +1,16 @@
 import React from "react"
 import { css } from "@emotion/core"
 import { Link, graphql } from "gatsby"
-import { rhythm } from "../utils/typography"
 import { Layout } from "../components/layout"
 
 export default function Blog({ data }) {
   return (
     <Layout>
-      <div>
-        <h1
-          css={css`
-            display: inline-block;
-          `}
-        >
+      <div className="container">
+        <h1 className="page-title">
           The Main Squeeze Blog
         </h1>
-        <h4>
+        <h4 className="section-title">
           {data.allMarkdownRemark.totalCount} Post
           {data.allMarkdownRemark.totalCount > 1 ? "s" : ""}
         </h4>
@@ -28,11 +23,7 @@ export default function Blog({ data }) {
                 color: inherit;
               `}
             >
-              <h3
-                css={css`
-                  margin-bottom: ${rhythm(1 / 4)};
-                `}
-              >
+              <h3>
                 {node.frontmatter.title}{" "}
                 <span
                   css={css`

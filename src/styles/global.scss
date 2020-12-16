@@ -4,18 +4,35 @@ $color3 : #00798c;
 $color4 : #30638e;
 $color5 : #003d5b;
 
+@import "~fontsource-patrick-hand/index.css";
+
+.page-title {
+        margin-top: 1rem;
+        margin-bottom: .5rem;
+        font-size: 3rem;
+}
+.section-title {
+    margin-top: 3rem;
+}
+.ad-page {
+    font-family: 'Patrick Hand', cursive;
+}
+
 .headroom {
   background-color: $color3;
-  padding: 5px;
-  .title {
+  display: flex;
+  padding: .5rem 1rem;
+  align-items: center;
+  justify-content: space-between;
+
+  .header-title {
     color: white;
   }
+
   a {
-    text-shadow: none;
-    // overriding styles from typography.js theme (configured in utils)
     color: white;
-    background-image: none;
   }
+
   .hamburger-icon {
     background-color: inherit;
     border: none;
@@ -46,11 +63,7 @@ $color5 : #003d5b;
         color: white;
     }
 }
-.constrained-width {
-  margin: auto;
-  max-width: 650px;
-  padding: 0 1rem;
-}
+
 .tube-in-use {
     background-image: url("/tubeInUse.svg");
     background-repeat: no-repeat;
@@ -91,6 +104,12 @@ $color5 : #003d5b;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   grid-gap: 1rem;
+}
+.grid-item {
+    flex: 0 1 auto;
+}
+.blog-image {
+    object-fit: contain;
 }
 
 // HOME PAGE
@@ -146,6 +165,11 @@ $color5 : #003d5b;
   padding: 10px;
 }
 
+.ms-logo {
+    display: inline-block;
+    max-height: 30px;
+}
+
 // large screen!
 @media screen and (min-width: 768px) {
     .headroom {
@@ -155,7 +179,7 @@ $color5 : #003d5b;
             display: none;
         }
         .link-list {
-            display: inline-block;
+            display: flex;
             float: right;
         }
     }

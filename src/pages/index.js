@@ -5,9 +5,8 @@ import MailSignupForm from "../components/mail-signup-form"
 export default function Home({ data }) {
   return (
     <Layout fullWidth={true}>
-      <div className="section">
-        <div className="constrained-width">
-          <h1>The Original Treat Tube</h1>
+      <div className="container">
+          <h1 className="page-title">The Original Treat Tube</h1>
           <p>
             Are you embarrassed by your excitable, impulsive, or reactive dog?
           </p>
@@ -16,7 +15,7 @@ export default function Home({ data }) {
             cringe?
           </p>
           <p>You’re not alone.</p>
-          <h3>Main Squeeze was made for you!</h3>
+          <h2 className="section-title">Main Squeeze was made for you!</h2>
           <p>
             Main Squeeze lets you use trainer-tested techniques to conquer the
             fear that drives his bad behavior.
@@ -25,8 +24,8 @@ export default function Home({ data }) {
             Use Main Squeeze to help your dog be the good dog you know she is
             inside.
           </p>
-        </div>
-        <div className="tube-in-use-wrapper">
+          </div>
+        <div className="container-fluid tube-in-use-wrapper">
           <img
             className="tube-in-use-image"
             src="/tubeInUse.svg"
@@ -49,13 +48,14 @@ export default function Home({ data }) {
           </div>
           <div className="tube-in-use-image" />
         </div>
-      </div>
-      <div className="section section-dark">
+      <div className="container-fluid section-dark">
+      <div className="container">
         <MailSignupForm />
       </div>
-      <div className="section">
-        <div className="constrained-width">
-          <h3>Working Towards a Better Future</h3>
+      </div>
+      <div className="container">
+        <div>
+          <h2 className="section-title">Working Towards a Better Future</h2>
           <p>
             Main Squeeze is a flexible product: it works just as well for a
             puppy learning her way in the world as it does for a troubled rescue
